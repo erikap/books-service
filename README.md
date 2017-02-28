@@ -14,6 +14,9 @@ Books have the following properties:
 |-------------|--------------------------------------------|
 | title       | Short title of the book                    |
 | isbn        | Unique ISBN identifier of the book         |
+| publication-date | Publication date of the book          |
+| genre       | Genre of the book                          |
+| number-of-pages | Number of pages in the book            |
 | authors     | Link to authors of the book                |
 
 Authors have the following properties:
