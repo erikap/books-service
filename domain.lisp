@@ -1,5 +1,9 @@
 (in-package :mu-cl-resources)
 
+(defparameter *include-count-in-paginated-responses* t
+  "when non-nil, all paginated listings will contain the number
+   of responses in the result object's meta.")
+
 (define-resource book ()
   :class (s-prefix "schema:Book")
   :properties `((:title :string ,(s-prefix "schema:headline"))
